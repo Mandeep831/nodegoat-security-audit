@@ -193,4 +193,4 @@ module.exports = function(grunt) {
     grunt.registerTask("default", ["precommit", "concurrent"]);
 };
 
-# security review comment
+// security review comment
