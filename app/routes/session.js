@@ -275,3 +275,5 @@ function SessionHandler(db) {
 }
 
 module.exports = SessionHandler;
+
+// Add comment
