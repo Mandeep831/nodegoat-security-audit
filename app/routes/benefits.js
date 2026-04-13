@@ -55,3 +55,5 @@ function BenefitsHandler(db) {
 }
 
 module.exports = BenefitsHandler;
+
+// Add comment

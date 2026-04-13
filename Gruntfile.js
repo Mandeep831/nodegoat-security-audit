@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                 files: APP_JS_FILES,
                 tasks: ["jshint"],
                 options: {
-                    livereload: true
+                    livereload: false
                 }
             },
             support: {
@@ -192,5 +192,3 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask("default", ["precommit", "concurrent"]);
 };
-
-// security review comment
